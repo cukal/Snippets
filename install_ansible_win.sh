@@ -1,13 +1,14 @@
 #!/usr/bin/bash
 # Install required Cygwin packages for Ansible 
+# Requires base Cygwin installation
 
 # Set cygwin install alias
 cygget="/cygdrive/c/cygwin64/setup-x86_64.exe -q -P"
 echo "alias cygget=$cygget" >> $HOME/.bashrc
 
 # Install helpers
-$cygget wget
 $cygget vim
+$cygget wget
 
 # vim rc file
 wget https://raw.githubusercontent.com/cukal/vimrc/master/vimrcs/basic.vim -O $HOME/.vimrc
