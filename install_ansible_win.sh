@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# Install required Cygwin packages for Ansible 
+# Install required Cygwin packages for Ansible on Windows
 # Requires base Cygwin installation
 
 # Set cygwin install alias
