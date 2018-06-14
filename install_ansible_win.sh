@@ -9,7 +9,7 @@ $cygget wget
 $cygget vim
 
 # vim rc file
-wget https://raw.githubusercontent.com/amix/vimrc/master/vimrcs/basic.vim -O $HOME/.vimrc
+wget https://raw.githubusercontent.com/cukal/vimrc/master/vimrcs/basic.vim -O $HOME/.vimrc
 
 # Install Ansible dependencies
 $cygget cygwin32-gcc-g++
