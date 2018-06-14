@@ -8,7 +8,6 @@ echo "alias cyg-get=$cygget" >> $HOME/.bashrc
 
 # Install helpers
 $cygget vim
-$cygget wget
 
 # vim rc file
 wget https://raw.githubusercontent.com/cukal/vimrc/master/vimrcs/basic.vim -O $HOME/.vimrc
