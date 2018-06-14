@@ -30,6 +30,13 @@ $cygget python2-pip
 $cygget python2-setuptools
 $cygget tree
 $cygget make
+$cygget libgssapi_krb5_2-src
+$cygget libkrb5_3
+$cygget libkrb5_3-src
+$cygget libkrb5support0-src
+$cygget krb5-workstation-src
+$cygget krb5-workstation
+$cygget krb5-pkinit
 
 # Install Ansible
 pip2 install ansible
