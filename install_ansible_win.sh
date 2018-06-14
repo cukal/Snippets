@@ -3,6 +3,7 @@
 
 # Set an alias to use
 cygget="/cygdrive/c/cygwin64/setup-x86_64.exe -q -P"
+echo "alias cygget=$cygget" >> $HOME/.bashrc
 
 # Install helpers
 $cygget wget
