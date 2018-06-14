@@ -4,6 +4,13 @@
 # Set an alias to use
 cygget="/cygdrive/c/cygwin64/setup-x86_64.exe -q -P"
 
+# Install helpers
+$cygget wget
+$cygget vim
+
+# vim rc file
+wget https://raw.githubusercontent.com/amix/vimrc/master/vimrcs/basic.vim -O $HOME/.vimrc
+
 # Install Ansible dependencies
 $cygget cygwin32-gcc-g++
 $cygget gcc-core
