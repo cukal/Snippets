@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Install required Cygwin packages for Ansible 
 
-# Set an alias to use
+# Set cygwin install alias
 cygget="/cygdrive/c/cygwin64/setup-x86_64.exe -q -P"
 echo "alias cygget=$cygget" >> $HOME/.bashrc
 
