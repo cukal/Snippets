@@ -4,7 +4,6 @@
 
 # Set cygwin install alias
 cygget="/cygdrive/c/cygwin64/setup-x86_64.exe -q -P"
-echo 'alias cyg-get="$cygget"' >> $HOME/.bashrc
 
 # Install helpers
 $cygget vim
